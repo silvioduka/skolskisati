@@ -3,7 +3,7 @@ import { SkolskiSati } from './SkolskiSati';
 export const skolskiSati: SkolskiSati[] = [
   {
     interval: { pocetak: { sati: 0, minute: 0 }, kraj: { sati: 8, minute: 0 } },
-    poruka: { kratkaPoruka: 'Jutarnja nastava još nije počela.', dugaPoruka: 'Jutarnja nastava još nije počela.' },
+    poruka: { kratkaPoruka: 'Nastava još nije počela.', dugaPoruka: 'Jutarnja nastava još nije počela.' },
     nastavaUTijeku: false,
     doKraja: 0,
     odPocetka: 0,
@@ -367,7 +367,7 @@ export const skolskiSati: SkolskiSati[] = [
   },
   {
     interval: { pocetak: { sati: 19, minute: 20 }, kraj: { sati: 23, minute: 59 } },
-    poruka: { kratkaPoruka: 'Popodnevna nastava je završila.', dugaPoruka: 'Popodnevna nastava je završila.' },
+    poruka: { kratkaPoruka: 'Nastava je završila.', dugaPoruka: 'Popodnevna nastava je završila.' },
     nastavaUTijeku: false,
     doKraja: 0,
     odPocetka: 0,
