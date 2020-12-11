@@ -1,3 +1,9 @@
+## Školski Sati
+
+Jednostavna demo Angular aplikacija koja pokazuje trenutni školski sat...
+
+Demo App na: https://skolskisat.vercel.app/
+
 # Skolskisat
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.5.
