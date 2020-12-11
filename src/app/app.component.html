@@ -13,7 +13,8 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content has-text-centered">
-                <p *ngIf="skolskiSat?.smjena !== 'van'" class="heading is-6">{{skolskiSat?.smjena}} NASTAVA</p>
+                <p *ngIf="skolskiSat?.smjena === 'jutarnja' || skolskiSat?.smjena === 'popodnevna'" class="heading is-6">{{skolskiSat?.smjena}} NASTAVA</p>
+                <p *ngIf="skolskiSat?.smjena === 'vikend'" class="heading is-6">{{skolskiSat?.poruka.dugaPoruka}}</p>
                 <p class="title is-3">{{skolskiSat?.poruka.kratkaPoruka}}</p>
               </div>
             </div>
